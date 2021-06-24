@@ -1,7 +1,6 @@
 .work {
   display: flex;
   flex-direction: column;
-  border-top: 2px solid gray;
   width: 100%;
 }
 .work-list {
@@ -9,4 +8,5 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  margin: 24px 0px;
 }

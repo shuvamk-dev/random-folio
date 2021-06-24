@@ -1,12 +1,39 @@
 .mobile {
-  background-color: rosybrown;
+  background-color: white;
   height: 100vh;
-  width: 50vw;
+  width: 60vw;
   right: 0px;
   position: absolute;
   padding: 18px 12px;
   top: -6px;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+
+  flex: 1;
+}
+.close-icon {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 24px;
+}
+
+.mobile-options {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 24px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.mobile-option {
+  font-size: 24px;
+  margin: 12px 0px;
+  display: flex;
+}
+.mobile-option a {
+  text-decoration: none;
+  color: black;
+  display: flex;
 }

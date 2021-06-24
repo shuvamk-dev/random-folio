@@ -7,6 +7,9 @@ function Header() {
   const handleLogoClick = () => {
     window.scrollTo(0, 0);
   };
+  window.onscroll = function () {
+    setIsOpen(false);
+  };
   return (
     <div className="header">
       <div onClick={handleLogoClick} className="logo">
@@ -19,7 +22,7 @@ function Header() {
 
         <div className="mobile-menu">
           <div onClick={() => setIsOpen(!isOpen)}>
-            <i class="fi-rr-apps"></i>
+            <i class="fi-rr-apps menu-icon"></i>
           </div>
           {isOpen && <Mobile isOpen={isOpen} setIsOpen={setIsOpen} />}
         </div>

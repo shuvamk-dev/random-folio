@@ -1,8 +1,11 @@
 .contact {
   display: flex;
   flex-direction: column;
-  border-top: 2px solid gray;
   flex: 1;
+}
+.section-title {
+  font-size: 32px;
+  font-weight: 700;
 }
 .contact-container {
   display: flex;
@@ -44,6 +47,7 @@
   }
   .contact-left {
     font-size: 16px;
+    margin-bottom: 12px;
   }
   .download {
     font-size: 16px;

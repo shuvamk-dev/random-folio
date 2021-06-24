@@ -3,21 +3,30 @@ import "./mobile.css";
 function Mobile({ isOpen, setIsOpen }) {
   return (
     <div className="mobile">
-      <div onClick={() => setIsOpen(!isOpen)}>
+      <div onClick={() => setIsOpen(!isOpen)} className="close-icon">
         <i class="fi-rr-cross-circle"></i>
       </div>
-      <div>
-        <div>
-          <a href="#projects">Projects</a>
+      <div className="mobile-options">
+        <div className="mobile-option">
+          <a href="#projects">
+            <i class="fi-rr-edit-alt option-icon"></i>Projects
+          </a>
         </div>
-        <div>
-          <a href="#skills">Skills</a>
+        <div className="mobile-option">
+          <a href="#skills">
+            <i class="fi-rr-laptop option-icon"></i>Skills
+          </a>
         </div>
-        <div>
-          <a href="#work">Work Experience</a>
+        <div className="mobile-option">
+          <a href="#work">
+            {" "}
+            <i class="fi-rr-briefcase option-icon"></i>Work
+          </a>
         </div>
-        <div>
-          <a href="#contact">Contact</a>
+        <div className="mobile-option">
+          <a href="#contact">
+            <i class="fi-rr-user option-icon"></i>Contact
+          </a>
         </div>
       </div>
     </div>
