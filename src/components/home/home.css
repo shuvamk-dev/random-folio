@@ -1,6 +1,9 @@
 body {
   font-family: "Work Sans", sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 .home {
   margin: auto;
   width: 70%;

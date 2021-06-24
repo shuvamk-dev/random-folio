@@ -1,0 +1,12 @@
+.mobile {
+  background-color: rosybrown;
+  height: 100vh;
+  width: 50vw;
+  right: 0px;
+  position: absolute;
+  padding: 18px 12px;
+  top: -6px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
