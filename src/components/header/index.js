@@ -4,9 +4,14 @@ import Mobile from "./mobile/index";
 import Web from "./web/index";
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const handleLogoClick = () => {
+    window.scrollTo(0, 0);
+  };
   return (
     <div className="header">
-      <div>Logo</div>
+      <div onClick={handleLogoClick} className="logo">
+        Overreacted
+      </div>
       <div className="menu">
         <div className="web-menu">
           <Web />

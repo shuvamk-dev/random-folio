@@ -1,4 +1,8 @@
 .about {
+  /* height: 75vh; */
+  padding-bottom: 24px;
+}
+.about-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,13 +18,13 @@
   color: blue;
 }
 @media only screen and (max-width: 720px) {
-  .about {
+  .about-top {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
   .picture {
-    height: 240px;
+    height: 280px;
   }
   .about-info {
     font-size: 20px;

@@ -1,0 +1,51 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  border-top: 2px solid gray;
+  flex: 1;
+}
+.contact-container {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 0px;
+}
+.contact-left {
+  max-width: 60%;
+  font-size: 20px;
+  text-align: center;
+}
+
+.download {
+  background-color: aquamarine;
+  padding: 8px 16px;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+.download a {
+  text-decoration: none;
+  color: black;
+}
+.download-icon {
+}
+
+@media only screen and (max-width: 720px) {
+  .contact-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-left {
+    max-width: 100%;
+  }
+  .contact-left {
+    font-size: 16px;
+  }
+  .download {
+    font-size: 16px;
+  }
+}

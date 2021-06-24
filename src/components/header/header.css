@@ -6,18 +6,32 @@
   position: relative;
   align-items: center;
 }
+.menu {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
 .mobile-menu {
   display: none;
 }
 .web-menu {
   display: flex;
 }
+.logo {
+  display: flex;
 
+  font-size: 36px;
+  color: blueviolet;
+  font-weight: 800;
+}
 @media only screen and (max-width: 720px) {
   .mobile-menu {
     display: flex;
   }
   .web-menu {
     display: none;
+  }
+  .logo {
+    font-size: 24px;
   }
 }
